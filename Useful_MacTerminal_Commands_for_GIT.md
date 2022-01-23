@@ -49,6 +49,7 @@
 3.23.2 mv <current name of file> <new name of file> >>> change a name of a file in the same folder
 3.24 git log >>> to exit the menu where this command will take you, you can exit it by pressing "q" and confirming this with ENTER in the keyboard.
 3.24.1 git log --oneline --graph --decorate --color  >>> use this command for a simpler version of the logs
+3.25 git checkout <paste here the commit id>to looat a prvious commit
 
 4. On accessing folders, use TAB to autofill when moving from one folder to the other.
 
