@@ -9,7 +9,7 @@
 6. Great benefit of GIT is that we can add features or any improvements (through the use of BRANCHES) in the RUNNING VERSION OF THE PROJECT, which is the MASTER BRANCH.  CLEARLY, GIT ALLOWS FOR THE AGILE SCRUM APPROACH OF PROJECT MANAGEMENT!!!
 7. We can refer to BRANCHES as basically SUB FOLDERS INSIDE A GIT PROJECT, wHERE EACH COLLABORATOR IS WORKING INDEPENDENTLY ON DIFFERENT PARTS OF THE PROJECT, WITHOUT HAVING AN IMPACT ON THE ACTUAL RUNNING VERSION OF THE PROJECT.
 
-### 23 Jan (Sun) - Git Installation Using MacOS Terminal
+### 23 Jan 2022 (Sun) - Git Installation Using MacOS Terminal
 1. There are many ways to install GIT in macOS as listed below:
 1.1 Homebrew - by using the command "brew install git"
 1.1.1 But first download and install Homebrew from the URL https://brew.sh
@@ -19,7 +19,7 @@
 
 2. Xcode and many more, but I recommend Homebrew.
 
-### 23 Jan (Sun) - Visual Studio Code Installation in MacOS
+### 23 Jan 2022 (Sun) - Visual Studio Code Installation in MacOS
 1. Since the example project in the tutorial is to create a website, we will install the Integrated Development Environment (IDE) VISUAL SUDIO CODE.
 2. VISUAL CODE STUDIO is free, commonly, and widely used IDE platform.
 3. Take note that VISUAL CODE STUDIO is a CROSS PLATFORM, which means that it works for both windows and macOS
@@ -37,4 +37,19 @@
 6.1.7 Then, click again the padlock icon to lock it.
 6.1.8 Finally, go back to the VISUAL STUDIO CODE to open the dowloaded file and install it. This time, you should be able to install it! 
   
+### 23 Jan 2022 (Sun) - How to Delete a .DS_Store file Using the MacOS Terminal
+1. In the Terminal type the command "rm -v **/.DS_Store"
+
+2. Learn more about the file ".DS_Store" in this URL https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
+3. We must delete this file. Refer to the excerpts below:
+3.1 A .DS_Store, short for Desktop Services Store, is an invisible file on the macOS operating system that gets automatically created anytime you look into a folder with ‘Finder.’ This file will then follow the folder everywhere it goes, including when archived, like in ‘ZIP.’
+3.2 If you’re a developer or system administrator and still transferring files from your computer to your server or don’t take the necessary precautions with your automated deployment process, you could be putting these files on the server where your site or application lives unconsciously.
+3.3 The people who want to prevent security breaches through .DS_Store files are developers and system administrators. Finding .DS_Store files in random folders in your server is not fun. You could be leaking information you don’t intend to. If you do find one, simply delete the file with the command  ‘rm .DS_Store’ and it will be resolved.
+3.4 The easiest way to prevent this problem from happening is to completely turn off the automatic creation of these files. Follow the steps in the URL https://buildthis.com/ds_store-files-and-why-you-should-know-about-them/
+3.5 For developers, you can use Git to solve this problem by doing the following:
+3.5.1 Place .DS_Store in your .gitignore file. 
+3.5.2 That way, any .DS_Store file will be ignored and not be pushed with the rest of your code.
+
+
+
 
