@@ -64,3 +64,5 @@ cd Users >>> this is an example of relative path because I'm currently in the C 
 5.7 /Users/satorusotoyama/projects/git-demo is an example of an absolute path. 
 5.7.1 Note that it always starts with the root directory
 
+Lesson Stopped: Git & GitHub - The Practical Guide, Section 36 Understanding & Creating Branches, 0:14/6:58
+
