@@ -1,5 +1,13 @@
 # Git Basic Notes
 
+### 23 Jan 2022 (Sun) - Git Identification
+1. In order for Git community to know where the commits, pull requests, and so on are coming from, you must tell Git your name and email address by running the commands below:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+1.1 This will set your account's default identity.
+1,2 Omit --global to set the identity only in this repository.
+
 ### 23 Jan 2022 (Sun) - Git Team Glossary and Use of BRANCHES
 1. It's good for a team of collaborators to develop their own GIT glossary to enable smooth communication.
 2. A BRANCH is a full copy of the MASTER BRANCH that you can work on INDEPENDENTLY without affecting the MASTER BRANCH.
