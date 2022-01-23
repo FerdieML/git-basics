@@ -1,4 +1,4 @@
-# Use Mac Terminal Commands for GIT
+# Useful Mac Terminal Commands for GIT
 1. ON THE MAC, we have TWO DIFFERENT SHELLS, TWO DIFFERENT TEXT INTERFACES.
 
 1.1 First one is the older one: BASH
