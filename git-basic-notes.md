@@ -57,6 +57,7 @@ git config --global user.name "Your Name"
 3.5 For developers, you can use Git to solve this problem by doing the following:
 3.5.1 Place .DS_Store in your .gitignore file. 
 3.5.2 That way, any .DS_Store file will be ignored and not be pushed with the rest of your code.
+3.6 END
 
 
 
